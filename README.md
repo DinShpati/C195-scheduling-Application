@@ -26,6 +26,8 @@
 
 #### INSTRUCTIONS
 #### To run the program, click on the run build button in the IntelliJ IDE. After that you will need your login information to be able to access the dashboard.
+`test`
+`test`
 
 #### ADDITIONAL REPORT
 #### For the 3rd report, I created a table that displays appointments per customer. You simply choose the customer from the dropdown and the information will be displayed on the table view. 
