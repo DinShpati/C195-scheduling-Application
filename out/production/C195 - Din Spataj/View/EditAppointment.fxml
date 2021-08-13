@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="494.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EditAppointment">
+   <children>
+      <Pane prefHeight="94.0" prefWidth="728.0" style="-fx-background-color: #000;">
+         <children>
+            <Text fill="WHITE" layoutX="238.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 30;" text="Edit Appointment" />
+            <Button fx:id="logoutBtn" layoutX="46.0" layoutY="34.0" mnemonicParsing="false" onAction="#exitToApnt" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: white; -fx-font-weight: 700; -fx-font-size: 13;" text="Back" />
+            <Button fx:id="exitBtn" layoutX="594.0" layoutY="35.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #fff; -fx-font-weight: 700; -fx-background-size: 13;" text="Exit" />
+         </children>
+      </Pane>
+      <Pane layoutX="38.0" layoutY="112.0" prefHeight="348.0" prefWidth="656.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, -10,  1, 1); -fx-border-color: white; -fx-border-radius: 25px; -fx-background-radius: 25px; -fx-background-color: white;">
+         <children>
+            <Text layoutX="21.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Appointment ID" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntID" disable="true" layoutX="156.0" layoutY="23.0" />
+            <TextField fx:id="apntTitle" layoutX="156.0" layoutY="57.0" />
+            <Text layoutX="21.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Title" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntDescription" layoutX="156.0" layoutY="91.0" />
+            <Text layoutX="21.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Description" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntLocation" layoutX="156.0" layoutY="124.0" />
+            <Text layoutX="21.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Location" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntType" layoutX="156.0" layoutY="160.0" />
+            <Text layoutX="21.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Type" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntLastUpdated" layoutX="467.0" layoutY="24.0" />
+            <Text layoutX="343.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Last Updated" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntLastUpdatedBy"  layoutX="467.0" layoutY="57.0" />
+            <Text layoutX="341.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Last Updated By" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntCustomerID" layoutX="467.0" layoutY="91.0" />
+            <Text layoutX="342.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Customer ID" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntUserID" layoutX="467.0" layoutY="124.0" />
+            <Text layoutX="341.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="User ID" wrappingWidth="169.2509765625" />
+            <Text layoutX="341.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Contact Name" wrappingWidth="169.2509765625" />
+            <ComboBox fx:id="apntContactName" layoutX="466.0" layoutY="200.0" onAction="#SetDivisionID" prefWidth="150.0" />
+            <Button fx:id="editAppointment" layoutX="465.0" layoutY="285.0" mnemonicParsing="false" onAction="#editApnt" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #000; -fx-font-weight: 700; -fx-font-size: 14;" text="Save Edit" textFill="WHITE" />
+            <TextField fx:id="apntStart" layoutX="156.0" layoutY="189.0" />
+            <Text layoutX="21.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Start" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntEnd" layoutX="156.0" layoutY="222.0" />
+            <Text layoutX="21.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="End" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntCreatedDate" layoutX="156.0" layoutY="257.0" />
+            <Text layoutX="21.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Created Date" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntCreatedBy" layoutX="156.0" layoutY="287.0" />
+            <Text layoutX="21.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Created By" wrappingWidth="169.2509765625" />
+            <TextField fx:id="apntContactID" layoutX="467.0" layoutY="160.0" />
+            <Text layoutX="341.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 15;" text="Contact ID" wrappingWidth="169.2509765625" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

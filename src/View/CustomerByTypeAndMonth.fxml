@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="675.0" prefWidth="1039.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CustomerByTypeAndMonth">
+   <children>
+      <Pane prefHeight="94.0" prefWidth="1119.0" style="-fx-background-color: #000;">
+         <children>
+            <Text fill="WHITE" layoutX="334.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 30;" text="Appointments by type &amp; month" />
+            <Button fx:id="mainBtn" layoutX="46.0" layoutY="34.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="29.0" prefWidth="110.0" style="-fx-background-color: white; -fx-font-weight: 700; -fx-font-size: 13;" text="Back To Main" />
+            <Button fx:id="exitBtn" layoutX="983.0" layoutY="36.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #fff; -fx-font-weight: 700; -fx-background-size: 13;" text="Exit" />
+         </children>
+      </Pane>
+      <Pane layoutX="122.0" layoutY="222.0" prefHeight="75.0" prefWidth="875.0" style="-fx-background-color: #161816;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="January" />
+            <Text fill="WHITE" layoutX="74.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="February" />
+            <Text fill="WHITE" layoutX="143.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="March" />
+            <Text fill="WHITE" layoutX="213.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="April" />
+            <Text fill="WHITE" layoutX="278.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="May" />
+            <Text fill="WHITE" layoutX="340.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="June" />
+            <Text fill="WHITE" layoutX="405.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="July" />
+            <Text fill="WHITE" layoutX="457.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="August" />
+            <Text fill="WHITE" layoutX="516.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="September" />
+            <Text fill="WHITE" layoutX="598.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="October" />
+            <Text fill="WHITE" layoutX="679.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="November" />
+            <Text fill="WHITE" layoutX="760.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="December" />
+            <TextField fx:id="January" disable="true" layoutX="14.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="February" disable="true" layoutX="77.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="March" disable="true" layoutX="139.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="April" disable="true" layoutX="205.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="May" disable="true" layoutX="268.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="June" disable="true" layoutX="331.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="July" disable="true" layoutX="394.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="August" disable="true" layoutX="455.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="September" disable="true" layoutX="516.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="October" disable="true" layoutX="599.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="November" disable="true" layoutX="687.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+            <TextField fx:id="December" disable="true" layoutX="767.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;                -fx-prompt-text-fill: WHITE;                -jfx-focus-color: WHITE;                -jfx-unfocus-color: WHITE;" />
+         </children>
+      </Pane>
+      <Text layoutX="440.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 20;" text="Appointments Per Month" />
+      <Text layoutX="452.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700; -fx-font-size: 20;" text="Appointments By Type" />
+      <Pane layoutX="413.0" layoutY="400.0" prefHeight="75.0" prefWidth="294.0" style="-fx-background-color: #161816;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="Planning" />
+            <Text fill="WHITE" layoutX="74.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="De-Briefing" />
+            <TextField fx:id="Planning" disable="true" layoutX="17.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;" />
+            <TextField fx:id="DeBriefing" disable="true" layoutX="85.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;" />
+            <Text fill="WHITE" layoutX="157.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="Phone" />
+            <Text fill="WHITE" layoutX="218.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="Online" />
+            <TextField fx:id="phone" disable="true" layoutX="153.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;" />
+            <TextField fx:id="online" disable="true" layoutX="218.0" layoutY="38.0" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #fff;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
