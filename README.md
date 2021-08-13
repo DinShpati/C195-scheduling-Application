@@ -26,7 +26,9 @@
 
 #### INSTRUCTIONS
 #### To run the program, click on the run build button in the IntelliJ IDE. After that you will need your login information to be able to access the dashboard.
+##### Username:
 `test`
+##### Pass:
 `test`
 
 #### ADDITIONAL REPORT
