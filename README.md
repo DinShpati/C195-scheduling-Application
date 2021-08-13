@@ -31,25 +31,25 @@
 ##### Pass:
 `test`
 
-##Login
+## Login
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/1.PNG?raw=true)
 
-##Dashboard
+## Dashboard
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/2.PNG?raw=true)
 
-##Dashboard > Menu > Customers
+## Dashboard > Menu > Customers
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/3.PNG?raw=true)
 
-##Dashboard > Menu > Appointments
+## Dashboard > Menu > Appointments
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/4.PNG?raw=true)
 
-##Dashboard > Reports > Appointments by Type & Month
+## Dashboard > Reports > Appointments by Type & Month
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/5.PNG?raw=true)
 
-##Dashboard > Reports > Contact Schedules
+## Dashboard > Reports > Contact Schedules
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/6.PNG?raw=true)
 
-##Dashboard > Reports > Appointments Per Customer
+## Dashboard > Reports > Appointments Per Customer
 ![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/7.PNG?raw=true)
 
 #### ADDITIONAL REPORT
