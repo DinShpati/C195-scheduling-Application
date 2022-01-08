@@ -2,9 +2,9 @@
 
 https://user-images.githubusercontent.com/25906602/129328660-d3f3ea8c-94ea-4462-b3f6-bc8c291a16c2.mp4
 
-# C195-scheduling-Application
+# scheduling-Application
 
-### Program Title: C195 scheduling desktop application
+### Program Title: scheduling desktop application
 ### Purpose: This application was build to help manage appointments, customers, contacts, and view reports on the data gathered.
 ### Author: Din Spataj
 ### Contact Info: dspataj@gmail.com
@@ -36,25 +36,25 @@ https://user-images.githubusercontent.com/25906602/129328660-d3f3ea8c-94ea-4462-
 `test`
 
 ## Login
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/1.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/1.PNG?raw=true)
 
 ## Dashboard
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/2.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/2.PNG?raw=true)
 
 ## Dashboard > Menu > Customers
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/3.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/3.PNG?raw=true)
 
 ## Dashboard > Menu > Appointments
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/4.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/4.PNG?raw=true)
 
 ## Dashboard > Reports > Appointments by Type & Month
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/5.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/5.PNG?raw=true)
 
 ## Dashboard > Reports > Contact Schedules
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/6.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/6.PNG?raw=true)
 
 ## Dashboard > Reports > Appointments Per Customer
-![](https://github.com/DinShpati/C195-scheduling-Application/blob/main/imgs/7.PNG?raw=true)
+![](https://github.com/DinShpati/scheduling-Application/blob/main/imgs/7.PNG?raw=true)
 
 #### ADDITIONAL REPORT
 #### For the 3rd report, I created a table that displays appointments per customer. You simply choose the customer from the dropdown and the information will be displayed on the table view. 
